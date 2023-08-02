@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple To-do List App</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <h1>To-Do List App</h1>
+    <input type="text" maxlength="50" id="writetask" placeholder="Enter your task here">
+    <button onclick="addtask()">Add Task</button>
+    <div id="tasklist"></div>
+    <p id="taskcount">Total Tasks: 0</p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
